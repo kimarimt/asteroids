@@ -3,7 +3,7 @@ from constants import *
 
 
 def main():
-    print('starting asteroids!')
+    print('Starting asteroids!')
     print(f'Screen width: {SCREEN_WIDTH}')
     print(f'Screen height: {SCREEN_HEIGHT}')
 
