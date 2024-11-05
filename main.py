@@ -42,7 +42,7 @@ def main():
         for asteroid in asteroids:
             if asteroid.collides_with(player):
                 print("Game over!")
-                sys.exit(0)   
+                sys.exit(0)
 
         for obj in drawable:
             obj.draw(screen)
